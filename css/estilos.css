@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #94FFFF;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+nav {
+    width: 100%;
+    float: left;
+}
+
+nav div img {
+    width: 100px;
+}
+
+ul li {
+    float: right;
+}
+
+nav ul {
+    margin-right: 10px;
+}
+
+nav a img {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+nav ul li  {
+    display: inline;
+    list-style: none;
+    padding-right: 10px;
+    margin-right: 5px;
+    padding: 5px 5px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    float: right;
+}
+
+    ul li a {
+        background-color: #2B44D9;
+        color:white;
+        padding: 6px 26px;
+        border: 4px solid transparent;
+    }
+
+    header {
+        background-color:#C7FFFF;
+    }
+
+    header img{
+        width: 50%;
+        border: 1px solid;
+    
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .clearfix{
+        overflow: auto;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    
+    }
+
+
+    .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100;}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+main img{
+    width: 100%;
+}
+
+button{
+    background-color: #2B44D9;
+    color: white;
+    padding: 10px;
+}
+
+header {
+    padding-bottom: 50px;
+}
+
+footer{
+    background: #D4E8FF;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* margin-top: 50px; */
+}
+
+nav a {
+    float: left;
+}
+
+
+.center {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    font-size: 15px;
+    color:black;
+}
+
+h2 {
+    color:#00008B;
+}
+
+    
